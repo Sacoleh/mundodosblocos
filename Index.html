@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo dos Blocos</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 20px 10px;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #ff9900;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1c1c1c;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #ff9900;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .tag {
+      background: red;
+      color: white;
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="profile.png">
+  <h1>Mundo dos Blocos</h1>
+  <p>🔥 Ofertas de LEGO</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <img src="mclaren.jpg">
+    <h3>🏎️ LEGO McLaren F1</h3>
+    <a class="btn" href="https://amzn.to/4t7KQcI" target="_blank">Ver oferta</a>
+  </div>
+
+  <div class="card">
+    <img src="batman63.jpg">
+    <h3>🦇 Batmóvel 1962 + Batman</h3>
+    <a class="btn" href="https://amzn.to/4n35kSu" target="_blank">Ver oferta</a>
+  </div>
+
+  <div class="card">
+    <img src="batman89.png">
+    <h3>🃏 Batmóvel 1989 + Coringa</h3>
+    <span class="tag">🌍 Produto Internacional</span>
+    <a class="btn" href="https://s.shopee.com.br/5flEFoIG8Y" target="_blank">Ver oferta</a>
+  </div>
+
+</div>
+
+</body>
+</html>
